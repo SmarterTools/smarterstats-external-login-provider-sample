@@ -37,7 +37,7 @@ node.js, java, python, or even classic ASP if that suits your skillset.
 
 The Provider should be implemented as a single POST API call that takes three inputs as a JSON body in the request:
 
-- site_id
+- site_id (integer)
 - username
 - password
 
@@ -46,7 +46,7 @@ For example:
 `POST https://YOUR_ENDPOINT_URL/login`
 ```
 { 
-  "site_id": "5", 
+  "site_id":  5, 
   "username": "bjones", 
   "password": "mySuperSecurePassword" 
 } 
