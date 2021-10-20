@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>SmarterTools Inc.</Authors>
+    <Product>ExternalProviderSample for SmarterStats</Product>
+    <Copyright>Copyright SmarterTools Inc. 2021.  All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="5.0.10" />
+  </ItemGroup>
+
+</Project>
